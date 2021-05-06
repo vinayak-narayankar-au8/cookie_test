@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie_testing</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-RK0WW81HTC"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-RK0WW81HTC");
+    </script>
+  </head>
+
+  <body>
+    <h1>Cookie Testing</h1>
+    <script
+      src="https://consent.cookiefirst.com/banner.js"
+      data-cookiefirst-key="09ebca83-1d39-4eb5-bf16-63760750c5b3"
+    ></script>
+
+    <!-- This is cookie policy mark up -->
+
+    <div id="cookiefirst-policy-page"></div>
+    <div>
+      This cookie policy has been created and updated by
+      <a href="https://cookiefirst.com">CookieFirst.com</a>.
+    </div>
+
+    <!-- Cookie table -->
+
+    <div id="cookiefirst-cookies-table"></div>
+    <div>
+      This cookie table has been created and updated by the
+      <a href="https://cookiefirst.com"
+        >CookieFirst consent management platform</a
+      >.
+    </div>
+
+    <script data-cookiefirst-category="advertising" type="text/plain">
+      alert("Script loaded");
+      document.cookie =
+        "cookie1=test; expires=Sun, 1 Jan 2023 00:00:00 UTC; path=/";
+    </script>
+
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+      type="text/plain"
+      data-cookiefirst-category="advertising"
+    ></script> -->
+  </body>
+</html>
